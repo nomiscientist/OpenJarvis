@@ -7,9 +7,9 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build:tauri": "tsc -b && vite build --outDir dist",
+    "dev": "node init && vite",
+    "build": "node init && tsc -b && vite build",
+    "build:tauri": "node init && tsc -b && vite build --outDir dist",
     "preview": "vite preview",
     "tauri": "tauri",
     "test": "vitest run"
