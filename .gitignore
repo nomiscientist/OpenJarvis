@@ -16,7 +16,6 @@ env/
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -37,8 +36,6 @@ htmlcov/
 Thumbs.db
 
 # Secrets
-.env
-.env.*
 # ...but keep checked-in example/templates (never contain real secrets)
 !.env.example
 !**/.env.example
@@ -130,3 +127,5 @@ learning.db
 minion_logs/
 *.oj-debug.json
 oj-debug.*.json
+config.bat
+node_modules
